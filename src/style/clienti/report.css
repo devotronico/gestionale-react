@@ -1,0 +1,71 @@
+/* <MESSAGE> */
+.clienti .report {
+  /* z-index: 1000; */
+  width: 100%;
+  /* position: absolute; */
+  height: 100%;
+  /* background-color: rgba(0, 0, 0, 0.4); */
+  padding: 20px 10px;
+}
+
+.clienti .report > .report-box {
+  padding: 20px 10px;
+  text-align: center;
+  border: 1px solid green;
+  color: green;
+  background-color: var(--bg-color-1);
+  opacity: 1;
+}
+
+.clienti .report > .report-box.success {
+  border: 1px solid green;
+  color: green;
+}
+
+.clienti .report > .report-box.error {
+  border: 1px solid red;
+  color: red;
+}
+
+.clienti .report > .report-box > ul {
+  list-style: none;
+  text-align: left;
+  width: 200px;
+  margin: 10px auto 0;
+}
+
+.clienti .report > .report-box > ul > li > .key {
+  display: inline-block;
+  width: 100px;
+}
+.clienti .report > .report-box > ul > li > .value {
+  display: inline-block;
+  width: 100px;
+}
+
+.clienti .report > .report-box > ul > li > .value {
+  display: inline-block;
+  width: 90px;
+}
+
+.clienti .report > .report-box > button {
+  display: block;
+  width: 100px;
+  height: var(--mobile-btn-height);
+  margin: 20px auto 0;
+  background-color: var(--accent-color);
+  border: none;
+  color: var(--text-color-1);
+  font-weight: bold;
+}
+
+.clienti .report > .report-box > button:hover {
+  cursor: pointer;
+  color: var(--text-color-0);
+}
+
+.clienti .report > .report-box > button:focus {
+  outline: none;
+}
+
+/* </MESSAGE> */

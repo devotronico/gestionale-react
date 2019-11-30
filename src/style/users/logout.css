@@ -1,0 +1,48 @@
+.users .logout {
+  position: relative;
+  height: calc(100% - 50px);
+  background-color: var(--bg-color-1);
+}
+
+.logout > .form {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+}
+
+.logout > .form > .form-group {
+  width: 94%;
+  height: var(--mobile-btn-height);
+  background-color: var(--bg-color-2);
+  display: flex;
+  align-items: center;
+}
+
+.logout > .form > .form-group:nth-last-of-type(1) {
+  width: 100%;
+}
+
+.logout > .form > .form-group > .row {
+  width: 100%;
+}
+
+.logout > .form > .form-group > p > .key,
+.logout > .form > .form-group > p > .value {
+  display: inline-block;
+  font-size: 13px;
+  padding-left: 8px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.logout > .form > .form-group > p > .key {
+  width: 35%;
+}
+
+.logout > .form > .form-group > p > .value {
+  width: 65%;
+}

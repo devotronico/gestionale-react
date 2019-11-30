@@ -1,0 +1,17 @@
+.indirizzi {
+  color: var(--text-color-0);
+  background-color: var(--bg-color-1) !important;
+}
+
+.no-address {
+  width: 80%;
+
+  margin: 100px auto 0;
+  padding: 20px;
+  background-color: var(--bg-color-2);
+}
+
+.no-address p {
+  text-align: center;
+  color: var(--text-color-1);
+}

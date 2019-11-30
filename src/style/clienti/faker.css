@@ -1,0 +1,89 @@
+.clienti > .faker {
+  position: relative;
+  height: calc(100% - 50px);
+  background-color: var(--bg-color-1);
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.clienti > .faker > .row {
+  height: var(--mobile-btn-height);
+  display: flex;
+  align-items: center;
+  width: 94%;
+  background-color: var(--bg-color-2);
+}
+
+.clienti > .faker input {
+  font-size: 18px;
+  height: var(--mobile-btn-height);
+  padding-top: 25px;
+  border: none;
+  outline: none;
+  padding-left: 8px;
+  color: var(--text-color-4);
+  background-color: transparent;
+}
+
+.clienti > .faker input:focus {
+  background: linear-gradient(
+    to bottom,
+    var(--bg-color-2) 90%,
+    var(--accent-color) 100%
+  );
+}
+
+.clienti > .faker > .row > button {
+  font-size: 20px;
+  flex-grow: 1;
+}
+
+.clienti .faker button {
+  height: var(--mobile-btn-height);
+  border: none;
+  color: var(--text-color-1);
+  font-weight: bold;
+  transition: opacity 0.5s;
+}
+
+/* .clienti > .faker > .row {
+  border-left: none;
+} */
+
+.clienti .faker button.accent {
+  flex-grow: 2;
+  background-color: var(--accent-color);
+}
+
+.clienti .faker button.danger {
+  flex-grow: 1;
+  background-color: var(--danger-color);
+}
+
+.clienti .faker button:disabled {
+  opacity: var(--btn-disabled-opacity);
+}
+
+.clienti .faker button:disabled:hover {
+  color: var(--text-color-1);
+}
+
+.clienti .faker button:hover {
+  cursor: pointer;
+  color: var(--text-color-0);
+}
+
+.clienti .faker button:focus {
+  outline: none;
+}
+
+.clienti > .faker > .btn-group > button {
+  border-left: 1px solid rgba(255, 255, 255, 0.1);
+}
+.clienti > .faker > .btn-group > button:nth-of-type(1) {
+  border-left: none;
+}
+/* </FORM-BUTTON> */

@@ -1,0 +1,47 @@
+/* <SELECT> */
+.mode > .form-group > label {
+  display: none;
+}
+.mode > .form-group > .field > select {
+  padding-left: 8px;
+  float: left;
+  width: 80%;
+  font-size: 18px;
+  height: var(--mobile-btn-height);
+  background-color: var(--accent-color);
+  border: none;
+  color: var(--text-color-1);
+  font-weight: bold;
+}
+
+.mode > .form-group > .field > select option {
+  font-size: 16px;
+}
+
+.mode > .form-group > .field > select:focus {
+  outline: none;
+}
+/* </SELECT> */
+
+/* <BUTTON-ADD> */
+.mode > .btn-mode {
+  width: 20%;
+  height: var(--mobile-btn-height);
+  border: none;
+  font-weight: bold;
+  font-size: 20px;
+  color: var(--text-color-1);
+  background-color: var(--accent-color);
+  border-left: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.mode > .btn-mode:hover {
+  cursor: pointer;
+  color: var(--text-color-0);
+  background-color: var(--accent-color);
+}
+
+.mode > .btn-mode:focus {
+  outline: none;
+}
+/* </BUTTON-ADD> */

@@ -1,0 +1,71 @@
+/* <MESSAGE> */
+.clienti .message {
+  z-index: 1000;
+  width: 100%;
+  position: absolute;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 20px 10px;
+}
+
+.clienti .message > .message-box {
+  padding: 20px 10px;
+  text-align: center;
+  border: 1px solid green;
+  color: green;
+  background-color: var(--bg-color-1);
+  opacity: 1;
+}
+
+.clienti .message > .message-box.success {
+  border: 1px solid green;
+  color: green;
+}
+
+.clienti .message > .message-box.error {
+  border: 1px solid red;
+  color: red;
+}
+
+.clienti .message > .message-box > ul {
+  list-style: none;
+  text-align: left;
+  width: 200px;
+  margin: 10px auto 0;
+}
+
+.clienti .message > .message-box > ul > li > .key {
+  display: inline-block;
+  width: 100px;
+}
+.clienti .message > .message-box > ul > li > .value {
+  display: inline-block;
+  width: 100px;
+}
+
+.clienti .message > .message-box > ul > li > .value {
+  display: inline-block;
+  width: 90px;
+}
+
+.clienti .message > .message-box > button {
+  display: block;
+  width: 100px;
+  height: var(--mobile-btn-height);
+  margin: 20px auto 0;
+  background-color: var(--accent-color);
+  border: none;
+  color: var(--text-color-1);
+  font-weight: bold;
+}
+
+.clienti .message > .message-box > button:hover {
+  cursor: pointer;
+  color: var(--text-color-0);
+}
+
+.clienti .message > .message-box > button:focus {
+  outline: none;
+}
+
+/* </MESSAGE> */

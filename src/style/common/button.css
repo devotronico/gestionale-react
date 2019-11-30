@@ -1,0 +1,39 @@
+/* .form-group-btn {
+  width: 100%;
+  display: flex;
+}
+
+.form-group-btn > button {
+  height: var(--mobile-btn-height);
+  border: none;
+  color: var(--text-color-1);
+  font-weight: bold;
+  transition: opacity 0.5s;
+}
+
+.form-group-btn > button.accent {
+  flex-grow: 2;
+  background-color: var(--accent-color);
+}
+
+.form-group-btn > button.danger {
+  flex-grow: 1;
+  background-color: var(--danger-color);
+}
+
+.form-group-btn > button:disabled {
+  opacity: var(--btn-disabled-opacity);
+}
+
+.form-group-btn > button:disabled:hover {
+  color: var(--text-color-1);
+}
+
+.form-group-btn > button:hover {
+  cursor: pointer;
+  color: var(--text-color-0);
+}
+
+.form-group-btn > button:focus {
+  outline: none;
+} */

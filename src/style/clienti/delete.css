@@ -1,0 +1,50 @@
+.clienti > .delete {
+  position: relative;
+  height: calc(100% - 50px);
+  background-color: var(--bg-color-1);
+}
+
+/* <INPUT> */
+.clienti > .delete .form-group > label {
+  position: absolute;
+  margin: 2px 0 0 8px;
+  font-size: 12px;
+  color: var(--text-color-1);
+  opacity: 40%;
+}
+
+.clienti > .delete.form-group > .field {
+  width: 100%;
+}
+
+.clienti > .delete input {
+  width: 100%;
+  height: var(--mobile-btn-height);
+  padding-top: 25px;
+  border: none;
+  outline: none;
+  padding-left: 8px;
+  color: var(--text-color-4);
+  background-color: transparent;
+}
+
+.clienti > .delete input.input-valid {
+  border-bottom: 1px solid var(--accent-color);
+}
+
+.clienti > .delete input.input-valid:focus {
+  background: linear-gradient(to bottom, var(--bg-color-2) 90%, var(--accent-color) 100%);
+}
+
+.clienti > .delete input.input-error {
+  border-bottom: 1px solid red;
+}
+.clienti > .delete input:disabled {
+  border-bottom: 1px solid gray;
+}
+
+.clienti > .delete .field > small {
+  font-size: 10.5px;
+  color: red;
+}
+/* </INPUT> */

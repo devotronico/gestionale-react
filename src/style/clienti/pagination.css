@@ -1,0 +1,51 @@
+.clienti .pagination {
+  height: var(--mobile-btn-height);
+  background-color: var(--bg-color-0);
+  list-style: none;
+  display: flex;
+}
+
+.clienti .pagination > .page-item {
+  height: var(--mobile-btn-height);
+  background-color: pink;
+  width: 64px;
+  border-left: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.clienti .pagination > .page-item:nth-of-type(1) {
+  border-left: none;
+}
+
+.clienti .pagination > .page-item > .page-link {
+  width: 100%;
+  display: block;
+  text-align: center;
+  line-height: 2.8;
+  height: var(--mobile-btn-height);
+  color: var(--text-color-1);
+  font-weight: bold;
+  text-decoration: none;
+  flex-grow: 1;
+  cursor: pointer;
+  background-color: var(--accent-color);
+}
+
+/* .clienti .pagination > .page-item > .page-link.unselected {
+  background-color: var(--accent-color);
+} */
+.clienti .pagination > .page-item > .page-link.selected {
+  background-color: var(--danger-color);
+}
+
+.page-link.first-page,
+.page-link.last-page {
+  font-size: 30px;
+  line-height: 1.5 !important;
+}
+
+.pagination-info {
+  color: var(--text-color-1);
+  font-size: 12px;
+  display: flex;
+  justify-content: space-between;
+}

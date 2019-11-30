@@ -1,0 +1,28 @@
+.form-group > button {
+  width: 100%;
+  height: var(--mobile-btn-height);
+  margin: auto;
+  background-color: var(--accent-color);
+  border: none;
+  color: var(--text-color-1);
+  font-weight: bold;
+  transition: all 0.5s;
+}
+
+.form-group > button:disabled {
+  background-color: var(--accent-color);
+  opacity: var(--btn-disabled-opacity);
+}
+
+.form-group > button:disabled:hover {
+  color: var(--text-color-1);
+}
+
+.form-group > button:hover {
+  cursor: pointer;
+  color: var(--text-color-0);
+}
+
+.form-group > button:focus {
+  outline: none;
+}

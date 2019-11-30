@@ -1,0 +1,13 @@
+.clienti .form {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.clienti .form-group {
+  width: 94%;
+  height: var(--mobile-btn-height);
+  background-color: var(--bg-color-2);
+}

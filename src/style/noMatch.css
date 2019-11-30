@@ -1,0 +1,17 @@
+.error404 {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.error404 .box {
+  margin-top: 100px;
+  padding: 20px;
+  background-color: var(--bg-color-2);
+}
+
+.error404 .box h1 {
+  text-align: center;
+  color: var(--text-color-1);
+}

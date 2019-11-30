@@ -1,0 +1,24 @@
+.users .signup {
+  position: relative;
+  height: calc(100% - 50px);
+  background-color: var(--bg-color-1);
+}
+
+.signup > .form {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+}
+
+.signup > .form > .form-group {
+  width: 94%;
+  height: var(--mobile-btn-height);
+  background-color: var(--bg-color-2);
+}
+
+.signup > .form > .form-group:nth-last-of-type(1) {
+  width: 100%;
+}

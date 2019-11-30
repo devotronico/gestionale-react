@@ -1,0 +1,31 @@
+/* <SELECT> */
+.clienti #select-group {
+  margin: 0;
+}
+.clienti #select-group > label {
+  display: none;
+}
+
+.clienti #select-group > .field {
+  width: 100%;
+}
+
+.clienti select {
+  padding-left: 8px;
+  width: 100%;
+  font-size: 18px;
+  height: var(--mobile-btn-height);
+  background-color: var(--accent-color);
+  border: none;
+  color: var(--text-color-1);
+  font-weight: bold;
+}
+
+.clienti select option {
+  font-size: 16px;
+}
+
+.clienti select:focus {
+  outline: none;
+}
+/* </SELECT> */

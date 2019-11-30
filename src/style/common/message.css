@@ -1,0 +1,74 @@
+.message {
+  z-index: 1000;
+  width: 100%;
+  position: absolute;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px 10px;
+}
+
+.message > .message-box {
+  padding: 20px 10px;
+  text-align: center;
+  border: 1px solid green;
+  color: green;
+  background-color: var(--bg-color-1);
+  opacity: 1;
+}
+
+.message > .message-box.success {
+  border: 1px solid green;
+  color: green;
+}
+
+.message > .message-box.error {
+  border: 1px solid red;
+  color: red;
+}
+
+.message > .message-box > ul {
+  list-style: none;
+  text-align: left;
+  margin: 10px auto 0;
+}
+
+.message > .message-box > ul > li {
+  font-size: 14px;
+}
+.message > .message-box > ul > li > .key {
+  display: inline-block;
+  width: 100px;
+}
+.message > .message-box > ul > li > .value {
+  display: inline-block;
+  width: 100px;
+}
+
+.message > .message-box > ul > li > .value {
+  display: inline-block;
+  width: 90px;
+}
+
+.message > .message-box > button {
+  display: inline-block;
+  width: 50%;
+  height: var(--mobile-btn-height);
+  margin: 20px auto 0;
+  background-color: var(--accent-color);
+  border: none;
+  color: var(--text-color-1);
+  font-weight: bold;
+}
+
+.message > .message-box > button:nth-of-type(1) {
+  border-right: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.message > .message-box > button:hover {
+  cursor: pointer;
+  color: var(--text-color-0);
+}
+
+.message > .message-box > button:focus {
+  outline: none;
+}

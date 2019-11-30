@@ -1,0 +1,42 @@
+/* <FORM-BUTTON> */
+.clienti .form-group-btn {
+  width: 100%;
+  display: flex;
+}
+
+.clienti .form-group-btn > button {
+  height: var(--mobile-btn-height);
+  border: none;
+  color: var(--text-color-1);
+  font-weight: bold;
+  transition: opacity 0.5s;
+}
+
+.clienti .form-group-btn > button.accent {
+  flex-grow: 2;
+  background-color: var(--accent-color);
+}
+
+.clienti .form-group-btn > button.danger {
+  flex-grow: 1;
+  background-color: var(--danger-color);
+}
+
+.clienti .form-group-btn > button:disabled {
+  /* background-color: var(--accent-color); */
+  opacity: var(--btn-disabled-opacity);
+}
+
+.clienti .form-group-btn > button:disabled:hover {
+  color: var(--text-color-1);
+}
+
+.clienti .form-group-btn > button:hover {
+  cursor: pointer;
+  color: var(--text-color-0);
+}
+
+.clienti .form-group-btn > button:focus {
+  outline: none;
+}
+/* </FORM-BUTTON> */

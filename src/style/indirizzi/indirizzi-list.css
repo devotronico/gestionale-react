@@ -1,0 +1,126 @@
+/* <RIGHE> */
+.indirizzi-list .row {
+  display: flex;
+  width: 100%;
+  font-size: 10px;
+  color: var(--text-color-1);
+  background-color: var(--bg-color-1);
+}
+
+/* <RIGA-HEAD> */
+.indirizzi-head .row.th {
+  height: 30px;
+  border-bottom: 3px solid var(--border-color);
+  background-color: var(--bg-color-2);
+}
+/* </RIGA-HEAD> */
+
+/* <RIGHE-BODY> */
+.indirizzi-rows .row.td {
+  border-bottom: 1px solid var(--border-color);
+  font-weight: 600;
+  height: var(--mobile-btn-height);
+}
+
+.indirizzi-rows .row.td:hover {
+  cursor: pointer;
+  background-color: var(--bg-hover-color);
+  color: var(--text-color-0);
+}
+
+.indirizzi-rows .row.active {
+  background-color: var(--bg-selected-color) !important;
+  color: var(--text-color-0) !important;
+}
+
+.indirizzi-rows .row.td.principal {
+  position: relative;
+}
+.indirizzi-rows .row.td.principal:after {
+  position: absolute;
+  content: 'indirizzo principale';
+  font-size: 10px;
+}
+/* </RIGHE-BODY> */
+/* </RIGHE> */
+
+/* <COLONNE> */
+.indirizzi-list .row > div {
+  border-left: 1px solid var(--border-color);
+  overflow-x: hidden;
+  display: flex;
+  align-items: center;
+}
+
+.indirizzi-list .row > div > p {
+  margin-left: 3px;
+}
+
+.indirizzi-list .row > div:nth-of-type(1) {
+  border-left: none;
+}
+
+/* 95 + 45 + 45 + 95 + 25 + 25 = 320 */
+/* 90 + 40 + 40 + 90 + 30 + 30 = 320 */
+
+/*
+  via       85
+  civico    35
+  cap       35
+  comune    80
+  provincia 45
+  nazione   40
+  
+  85 + 35 + 35 + 80 + 45 + 40 = 320
+  */
+.indirizzi-list .id,
+.indirizzi-list .cliente_id,
+.indirizzi-list .principale {
+  display: none !important;
+}
+
+.indirizzi-list .via {
+  width: 85px !important;
+}
+
+.indirizzi-list .civico,
+.indirizzi-list .cap {
+  width: 35px !important;
+}
+
+.indirizzi-list .comune {
+  width: 80px !important;
+}
+
+.indirizzi-list .provincia {
+  width: 45px !important;
+}
+
+.indirizzi-list .nazione {
+  width: 40px !important;
+}
+
+/* .indirizzi-list .id,
+  .indirizzi-list .cliente_id,
+  .indirizzi-list .principale,
+  .indirizzi-list .civico,
+  .indirizzi-list .provincia,
+  .indirizzi-list .nazione {
+    width: 20px !important;
+  }
+  
+  .indirizzi-list .via,
+  .indirizzi-list .comune {
+    width: 84px !important;
+  }
+  .indirizzi-list .cap {
+    width: 32px !important;
+  } */
+
+/* </COLONNE> */
+
+.col > p {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
